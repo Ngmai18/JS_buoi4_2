@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bai tap JS-4</title>
+  </head>
+  <body>
+    <!-- Bài 1 -->
+    <p>Bài 1:</p>
+    <form action="submit" id="bai1" style="margin-bottom: 1rem;">
+      <label for="number1">Nhập số thứ 1</label>
+      <input id="number1" type="text" />
+      <label for="number2">Nhập số thứ 2</label>
+      <input id="number2" type="text" />
+      <label for="number3">Nhập số thứ 3</label>
+      <input id="number3" type="text" />
+      <input type="submit" value="Submit" />
+    </form>
+    <div id="ketqua1">
+      <i>Thứ tự 3 số là: </i>
+    </div>
+
+    <!-- Bài 2 -->
+    <p><strong>Bài 2:</strong></p>
+    <p>Chọn người dùng</p>
+    <form id="elements" onchange="showValue()">
+        <input type="radio" id="r1" name="element" value="1">  Bố
+        <input type="radio" id="r2" name="element" value="2"> Mẹ
+        <input type="radio" id="r3" name="element" value="3" checked="checked"> Anh Trai
+        <input type="radio" id="r2" name="element" value="4"> Em gái
+      </form>
+    <div id="results"></div>
+
+
+      <!-- Bài 3 -->
+      <p>Bài 3:</p>
+      <form action="submit" id="bai3" style="margin-bottom: 1rem;">
+        <label for="number3_1">Nhập số thứ 1</label>
+        <input id="number3_1" type="text" />
+        <label for="number3_2">Nhập số thứ 2</label>
+        <input id="number3_2" type="text" />
+        <label for="number3_3">Nhập số thứ 3</label>
+        <input id="number3_3" type="text" />
+        <input type="submit" value="Submit" />
+      </form>
+      <div><i>Số lượng số lẻ là: </i><i id="ketqua3_1"></i></div>
+      <div><i>Số lượng số chẳn là: </i><i id="ketqua3_2"></i></div>
+
+
+       <!-- Bài 4 -->
+       <p>Bài 4:</p>
+       <form action="submit" id="bai4" style="margin-bottom: 1rem;">
+         <label for="number4_1">Nhập số thứ 1</label>
+         <input id="number4_1" type="text" />
+         <label for="number4_2">Nhập số thứ 2</label>
+         <input id="number4_2" type="text" />
+         <label for="number4_3">Nhập số thứ 3</label>
+         <input id="number4_3" type="text" />
+         <input type="submit" value="Submit" />
+       </form>
+       <div><i>3 cạnh là cạnh của tam giác: </i><i id="ketqua4"></i></div>
+  </body>
+  <script src="./main.js"></script>
+</html>
